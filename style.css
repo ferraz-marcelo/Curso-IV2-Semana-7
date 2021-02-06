@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto + Condensado: wght @ 300 & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header a{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    padding: 1em;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.randontime{
+    border-radius: 1em;
+    width: 18vw;
+    height: 15vh;
+    margin: 1.5em;
+    padding: 2em;
+    display: flex;
+    font-size: 1.5em;
+    align-items:flex-start;
+    justify-content:space-around;
+}
+
+.randontime:hover{
+    transform: scale(1.1);
+}    
+
+td{
+    padding: 0.5vh;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+
+
